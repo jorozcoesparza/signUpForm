@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
-img {
+.backgroundImage {
     display: block;
     height: 100vh;
     width: auto; 
+}
+
+@font-face {
+    font-family: 'NorseBold';
+    src: url('./files/Norse-Bold.otf') format('opentype');
+}
+
+.odinLogoText {
+    font-family: 'NorseBold', sans-serif;
+}
+
+.decorativeElements {
+    display: flex;
+}
+
+.logoImageTextContainer {
+   display: flex;
 }
