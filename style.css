@@ -17,6 +17,7 @@
 
 .odinLogoText {
     font-family: 'NorseBold', sans-serif;
+    color: white;
 }
 
 .decorativeElements {
@@ -25,4 +26,9 @@
 
 .logoImageTextContainer {
    display: flex;
+}
+
+.logoImageTextContainer {
+    background-color: #000000;
+    opacity: 10%;
 }
